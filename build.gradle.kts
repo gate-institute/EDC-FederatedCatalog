@@ -17,6 +17,8 @@ plugins {
     `java-library`
 }
 
+apply(from = "gradle/gate.gradle.kts")
+
 val fccScmConnection: String by project
 val fccScmUrl: String by project
 
